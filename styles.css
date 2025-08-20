@@ -1,3 +1,105 @@
 /* Your Styles Here */
-body{
+body {
+    background-color: darkolivegreen;
+    align-items: left;
+    align-content: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+    align-items: left;
+    text-align: left;
+    color: olive;
+    margin-top: 1%;
+}
+
+.card-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 18%;
+    border-color: rgb(171, 198, 171);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.profile-pic {
+    height: 35%;
+    width: 35%;
+    margin-right: 2rem;
+    margin-left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text-section {
+    margin-right: 2%;
+}
+
+.flower-icon-1 {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 80vw;
+    height: 80vh;
+    object-fit: contain;
+    z-index: -1;
+    pointer-events: none;
+    -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {-moz-tranform: rotate(360deg);}
+}
+
+@-webkit-keyframes spin {
+    100% {-webkit-tranform: rotate(360deg);}
+}
+
+@keyframes spin {
+    100% {
+        -webkit-tranform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.flower-icon-2 {
+    position: fixed;
+    bottom: 40%;
+    right: 50%;
+    width: 80vw;
+    height: 80vh;
+    object-fit: contain;
+    z-index: -1;
+    pointer-events: none;
+    -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+}
+
+.linkedin-button {
+    background-color: olive; 
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    border-color: olive;
+    font-size: 16px; 
+    margin-top: 3%;
+    transition: background-color 0.3s ease; 
+}
+
+.linkedin-button:hover {
+    background-color: black ;
+}
+
+p {
+    margin-bottom: 4%;
 }
